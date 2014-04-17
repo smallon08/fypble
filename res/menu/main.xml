@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refresh"
+          android:title="更新"
+          android:checkable="false"
+          android:orderInCategory="1"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_scan"
+          android:title="搜尋"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_stop"
+          android:title="停止"
+          android:orderInCategory="101"
+          android:showAsAction="ifRoom|withText"/>
+     <item android:id="@+id/upnp"
+          android:title="搜尋UPnP"
+          android:orderInCategory="102"
+          android:showAsAction="ifRoom|withText"/>
+     
+   <item android:id="@+id/alarm"
+          android:title="設定UPnP鬧鐘"
+          android:orderInCategory="103"
+          android:showAsAction="ifRoom|withText"/>
+      <item android:id="@+id/person"
+          android:title="更改個人資料"
+          android:orderInCategory="104"
+          android:showAsAction="ifRoom|withText"/>
+ <item android:id="@+id/reset"
+          android:title="重設"
+          android:orderInCategory="105"
+          android:showAsAction="ifRoom|withText"/>
+</menu>
